@@ -73,16 +73,20 @@
 
 ### 使用方式
 
+1. **克隆仓库**
+
 ```bash
-# 克隆项目
 git clone git@github.com:fslong520/OInspire.git
 cd OInspire
-
-# 配置 agent.json（模型提供商、workspace 路径等）
-# 详细步骤请参考 QwenPaw 官方文档
 ```
 
-配置完成后，即可启动与学生对话。
+2. **部署到 QwenPaw**
+   - 找到你的 QwenPaw 默认工作区目录。
+   - 将本项目的核心文件（`AGENTS.md`, `SOUL.md`, `PROFILE.md`, `memory/`, `skills/`）复制进去。
+   - 如果已有同名文件，请**替换**它们。
+
+3. **启动**
+   - 启动 QwenPaw，即可开始使用教练智能体。
 
 ---
 

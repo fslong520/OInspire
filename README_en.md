@@ -73,16 +73,20 @@ A built-in tracking system that auto-updates after every session:
 
 ### Setup
 
+1. **Clone the repository**
+
 ```bash
-# Clone the repository
 git clone git@github.com:fslong520/OInspire.git
 cd OInspire
-
-# Configure your agent.json (model provider, workspace path, etc.)
-# Refer to the QwenPaw documentation for details
 ```
 
-Once configured, the coach is ready to interact with students.
+2. **Deploy to QwenPaw**
+   - Locate your QwenPaw default workspace directory.
+   - Copy the core files (`AGENTS.md`, `SOUL.md`, `PROFILE.md`, `memory/`, `skills/`) into it.
+   - **Overwrite** existing files if prompted.
+
+3. **Start**
+   - Launch QwenPaw to start using the coach.
 
 ---
 
