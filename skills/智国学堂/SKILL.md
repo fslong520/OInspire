@@ -270,7 +270,7 @@ git diff
 5. **模板位置**：各 app 的 templates 放在 `apps/{app_name}/templates/{app_name}/`
 6. **⚠️ 禁止收集静态文件**：不要运行 `python manage.py collectstatic`，静态文件由用户手动配置
 7. **文档同步**：每次更新开发文档（SKILL.md / PROJECT.md）时，需同步到两个位置：
-   - 技能目录：`~/.copaw/active_skills/智国学堂/`
+   - 技能目录：`~/.qwenpaw/active_skills/智国学堂/`
    - 项目目录：`~/Documents/blog/blog/docs/`
 
 ## 相关文档

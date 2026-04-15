@@ -63,7 +63,7 @@ AI：生成包含题解、代码分析的完整日报（完整模式）
 
 ### 手动触发
 ```bash
-copaw run 学生刷题日报
+qwenpaw run 学生刷题日报
 ```
 
 ### 自动运行
@@ -534,10 +534,10 @@ graph TD
 
 ## 相关文件
 
-- 技能目录：`/home/fslong/.copaw/active_skills/学生刷题日报/`
+- 技能目录：`/home/fslong/.qwenpaw/active_skills/学生刷题日报/`
 - 管理员名单：`MEMORY.md` 中的「管理员/教师排除名单」section
 - 输出文件夹：`~/Desktop/智国 OJ 刷题日报/`
-- cron 任务：通过 `copaw cron` 管理，每晚 22:00 自动触发
+- cron 任务：通过 `qwenpaw cron` 管理，每晚 22:00 自动触发
 
 ## 更新日志
 

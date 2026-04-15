@@ -60,7 +60,7 @@ python3 record.py --action teaching --topic "差分算法讲解"
 
 小毓在每次回答学习类问题后，会自动执行：
 ```bash
-python3 /home/fslong/.copaw/workspaces/default/active_skills/墨池/record.py \
+python3 /home/fslong/.qwenpaw/workspaces/default/active_skills/墨池/record.py \
   --action knowledge --topic "xxx" --category "xxx" \
   --summary "xxx" --tags "xxx"
 ```
