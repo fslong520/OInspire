@@ -1,0 +1,151 @@
+# ============================================
+# 白名单模式：忽略一切，只追踪关键文件
+# ============================================
+
+# 忽略所有文件（但 * 不影响目录遍历）
+*
+
+# 允许所有目录被遍历（关键！）
+!*/
+
+# ============================================
+# 核心配置文件
+# ============================================
+!AGENTS.md
+!SOUL.md
+!PROFILE.md
+!MEMORY.md
+!.gitignore
+!README.md
+
+# agent.json 包含个人路径和密钥，已排除
+agent.json
+
+# ============================================
+# 记忆系统（学生数据模板）
+# ============================================
+!memory/student/profile.md
+!memory/student/knowledge_matrix.md
+!memory/student/templates.md
+!memory/student/error_log.md
+!memory/student/contest_log.md
+!memory/student/conversation_log.md
+!memory/student/INDEX.md
+
+# ============================================
+# 所有 Skills 的 SKILL.md
+# ============================================
+!skills/*/SKILL.md
+
+# ============================================
+# Skills 依赖的文件
+# ============================================
+!skills/browser_cdp/SKILL.md
+!skills/browser_visible/SKILL.md
+!skills/channel_message/SKILL.md
+!skills/copaw_source_index/SKILL.md
+!skills/cron/SKILL.md
+!skills/dingtalk_channel/SKILL.md
+
+!skills/docx/SKILL.md
+!skills/docx/LICENSE.txt
+!skills/docx/scripts/*.py
+!skills/docx/scripts/**/*.py
+!skills/docx/scripts/templates/*.xml
+!skills/docx/scripts/office/schemas/**/*.xsd
+
+!skills/file_reader/SKILL.md
+!skills/guidance/SKILL.md
+!skills/himalaya/SKILL.md
+!skills/himalaya/references/*.md
+!skills/multi_agent_collaboration/SKILL.md
+!skills/news/SKILL.md
+
+!skills/pdf/SKILL.md
+!skills/pdf/LICENSE.txt
+!skills/pdf/reference.md
+!skills/pdf/forms.md
+!skills/pdf/scripts/*.py
+
+!skills/pptx/SKILL.md
+!skills/pptx/LICENSE.txt
+!skills/pptx/editing.md
+!skills/pptx/pptxgenjs.md
+!skills/pptx/scripts/*.py
+!skills/pptx/scripts/**/*.py
+!skills/pptx/scripts/office/schemas/**/*.xsd
+
+!skills/xlsx/SKILL.md
+!skills/xlsx/LICENSE.txt
+!skills/xlsx/scripts/*.py
+!skills/xlsx/scripts/**/*.py
+!skills/xlsx/scripts/office/schemas/**/*.xsd
+
+!skills/urlgo/SKILL.md
+!skills/urlgo/steps/*.md
+
+# ============================================
+# 竞赛教练专属 Skills - 完整内容
+# ============================================
+
+# 题单与训练计划生成器
+!skills/problem_set_generator/SKILL.md
+!skills/problem_set_generator/knowledge_map.md
+!skills/problem_set_generator/templates/*.md
+
+# 搬题姬
+!skills/搬题姬/SKILL.md
+!skills/搬题姬/*.md
+!skills/搬题姬/question/*.cpp
+!skills/搬题姬/question/*.h
+!skills/搬题姬/question/*.yaml
+!skills/搬题姬/question/testdata/*.yaml
+
+# 备课
+!skills/备课/SKILL.md
+!skills/备课/references/*.md
+!skills/备课/assets/*.md
+
+# 命题工坊
+!skills/命题工坊/SKILL.md
+
+# 墨池
+!skills/墨池/SKILL.md
+!skills/墨池/inkpot.py
+!skills/墨池/record.py
+!skills/墨池/TEST_REPORT.md
+!skills/墨池/knowledge/**/*.md
+!skills/墨池/profile/*.md
+# 墨池的 db/ 是用户个人数据，不追踪
+
+# 学生刷题日报
+!skills/学生刷题日报/SKILL.md
+!skills/学生刷题日报/*.py
+
+# 智国学堂
+!skills/智国学堂/SKILL.md
+!skills/智国学堂/*.md
+
+# ============================================
+# Python 缓存忽略
+# ============================================
+**/__pycache__/
+**/*.pyc
+
+# ============================================
+# 运行数据（不追踪）
+# ============================================
+browser/
+file_store/
+tool_result/
+sessions/
+node_modules/
+.eme_store*
+.reme_store*
+.bootstrap_completed
+HEARTBEAT.md
+jobs.json
+chats.json
+memory_file_metadata.json
+skill.json
+.skill.json.lock
